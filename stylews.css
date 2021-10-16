@@ -1,0 +1,199 @@
+ button {
+    border-radius: 30px 30px 30px 30px;
+    font-weight: bold;
+    color: white;
+ }
+ 
+ img {
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+ }
+ 
+ ul {
+    padding: 40px;
+ }
+ 
+ .title {
+    padding: 40px;
+    font-family: cursive;
+    color: darkBlue;
+    text-align: center;
+    font-size: 45px;
+    width: 95%;
+    margin: 0;
+ }
+ 
+ .div22 {
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(45deg, lightBlue, linen, tan);
+    font-family: cursive;
+    color: grey;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: bold;
+ }
+ 
+ .div23 {
+    color: grey;
+    font-size: 20px;
+    border: 1px solid black;
+ }
+ 
+ .explore {
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(45deg, lightCyan, teal, skyBlue);
+    border-radius: 30px 30px 30px 30px;
+    margin: 0 auto;
+ }
+ 
+ .h44 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(45deg, pink, red, azure);
+    border-radius: 30px 30px 30px 30px;
+    padding: 30px;
+    font-family: cursive;
+    margin: 0;
+ }
+ 
+ .div111 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ .iframe {
+    height: 300px;
+    width: 80%;
+    text-align: center;
+ }
+ 
+ .div33 {
+    background: linear-gradient(Black, Black, Black);
+    color: white;
+    font-family: Courier New;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+ }
+ 
+ .p11 {
+   padding: 10px;
+   background: linear-gradient(Black, Black, Black);
+   color: white;
+   text-align: center;
+ }
+ 
+ .p22 {
+    font-family: courier new;
+    font-weight: bold;
+    text-align: left;
+ }
+ 
+ .links11 {
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    background: linear-gradient(45deg, aliceBlue, lightGreen, lightBlue);
+    font-weight: bold;
+    font-family: Courier New;
+    color: black;
+ }
+
+ 
+ .prog1 {
+    border: 2px solid black;
+    margin: 5px;
+    width: 90%;
+ }
+ 
+ .full {
+    height: 50px;
+    margin: 0 auto;
+    width: 0%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    animation: full 1.5s ease-in-out 1s infinite alternate forwards;
+ }
+
+ @keyframes full {
+    from {
+       width: 0%;
+       background-color: white;
+    }
+    to {
+       width: 100%;
+       background-color: green;
+    }
+}
+ 
+ .half {
+    height: 50px;
+    margin: 0 auto;
+    width: 0%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    animation: half 1.5s ease-in-out 1s infinite alternate forwards;
+ }
+
+ @keyframes half {
+     from {
+        width: 0%;
+        background-color: white;
+     }
+     to {
+        width: 100%;
+        background-color: green;
+     }
+ }
+ 
+ .low {
+   height: 50px;
+   margin: 0 auto;
+   width: 0%;
+   background-color: orange;
+   color: white;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   animation: low 1.5s ease-in-out 1s infinite alternate forwards;
+ }
+
+ @keyframes low {
+    from {
+       width: 0%;
+       background-color: white;
+    }
+    to {
+       width: 20%;
+       background-color: orange;
+    }
+}
+ 
+ .loading {
+   height: 50px;
+   margin: 0 auto;
+   width: 0%;
+   background-color: white;
+   color: black;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   animation: loading 1.5s ease-in-out 1s infinite alternate forwards;
+ }
+
+ @keyframes loading {
+    from {
+       width: 0%;
+       color: white;
+    }
+    to {
+       width: 100%;
+       color: black;
+    }
+}
